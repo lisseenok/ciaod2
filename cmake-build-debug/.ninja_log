@@ -1,0 +1,9 @@
+# ninja log v5
+0	690	1662700751415481062	CMakeFiles/ciaod2.dir/practice1/test.cpp.o	7bd65edb05432036
+11	753	1662722545837873992	CMakeFiles/ciaod2.dir/practice1/task3.cpp.o	c7fd83a76ebe60a2
+3	546	1662640735334240499	CMakeFiles/ciaod2.dir/practice1/task1.cpp.o	9d544371cecfd92f
+2	453	1662634984256413201	CMakeFiles/ciaod2.dir/practice1/task3_a.cpp.o	9c0aafa17ff8335
+753	809	1662722545896997534	ciaod2	d4dd3b074f7e6687
+3	577	1662656848648170641	CMakeFiles/ciaod2.dir/practice1/task2.cpp.o	1b1df9b21b341027
+1	570	1662118627877012198	CMakeFiles/ciaod2.dir/main.cpp.o	d635aa774fc50362
+0	41	1663617137983951845	build.ninja	9dbedd0cbb20d499
