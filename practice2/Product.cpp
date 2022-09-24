@@ -2,7 +2,7 @@
 
 using namespace std;
 /**
- * Открытая адресация (квадратич- ное пробирование)
+ * Открытая адресация (квадратичное пробирование)
 Товар: код – шестиразрядное число, название, цена
  */
 class Product {
@@ -11,7 +11,11 @@ private:
     string name;
     int price;
 public:
-    Product(int number, string name, int price) : number(number), name(name), price(price){}
+    Product(int number, const string &name, int price) : number(number), name(name), price(price) {}
+
+    virtual bool isRemoved(){
+        return false;
+    }
 
     int getNumber() const {
         return number;
@@ -35,5 +39,14 @@ public:
 
     void setPrice(int price) {
         Product::price = price;
+    }
+};
+
+class RemovedProduct: public Product {
+public:
+    RemovedProduct() : Product(0, "", 0) {}
+
+    bool isRemoved() override {
+        return true;
     }
 };

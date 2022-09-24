@@ -72,12 +72,6 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_ciaod2: phony || CMakeFiles/ciaod2.dir
 
-build CMakeFiles/ciaod2.dir/practice1/task3.cpp.o: CXX_COMPILER__ciaod2_Debug /Users/elizavetacaplina/CLionProjects/ciaod2/practice1/task3.cpp || cmake_object_order_depends_target_ciaod2
-  DEP_FILE = CMakeFiles/ciaod2.dir/practice1/task3.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -std=gnu++14
-  OBJECT_DIR = CMakeFiles/ciaod2.dir
-  OBJECT_FILE_DIR = CMakeFiles/ciaod2.dir/practice1
-
 build CMakeFiles/ciaod2.dir/practice2/HashTable.cpp.o: CXX_COMPILER__ciaod2_Debug /Users/elizavetacaplina/CLionProjects/ciaod2/practice2/HashTable.cpp || cmake_object_order_depends_target_ciaod2
   DEP_FILE = CMakeFiles/ciaod2.dir/practice2/HashTable.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -std=gnu++14
@@ -90,6 +84,12 @@ build CMakeFiles/ciaod2.dir/practice2/Product.cpp.o: CXX_COMPILER__ciaod2_Debug 
   OBJECT_DIR = CMakeFiles/ciaod2.dir
   OBJECT_FILE_DIR = CMakeFiles/ciaod2.dir/practice2
 
+build CMakeFiles/ciaod2.dir/practice2/main.cpp.o: CXX_COMPILER__ciaod2_Debug /Users/elizavetacaplina/CLionProjects/ciaod2/practice2/main.cpp || cmake_object_order_depends_target_ciaod2
+  DEP_FILE = CMakeFiles/ciaod2.dir/practice2/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/ciaod2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ciaod2.dir/practice2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ciaod2
@@ -98,7 +98,7 @@ build CMakeFiles/ciaod2.dir/practice2/Product.cpp.o: CXX_COMPILER__ciaod2_Debug 
 #############################################
 # Link the executable ciaod2
 
-build ciaod2: CXX_EXECUTABLE_LINKER__ciaod2_Debug CMakeFiles/ciaod2.dir/practice1/task3.cpp.o CMakeFiles/ciaod2.dir/practice2/HashTable.cpp.o CMakeFiles/ciaod2.dir/practice2/Product.cpp.o
+build ciaod2: CXX_EXECUTABLE_LINKER__ciaod2_Debug CMakeFiles/ciaod2.dir/practice2/HashTable.cpp.o CMakeFiles/ciaod2.dir/practice2/Product.cpp.o CMakeFiles/ciaod2.dir/practice2/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0
   OBJECT_DIR = CMakeFiles/ciaod2.dir
   POST_BUILD = :

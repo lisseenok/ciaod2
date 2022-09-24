@@ -3,4 +3,4 @@ project(ciaod2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ciaod2  practice1/task3.cpp practice2/HashTable.cpp practice2/Product.cpp)
+add_executable(ciaod2  practice2/HashTable.cpp practice2/Product.cpp practice2/main.cpp)
